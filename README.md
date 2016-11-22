@@ -5,3 +5,4 @@ This repo consist of programs related to graph data structure written in python 
 * Adjacency List
 * Dijkstra Algorithm
 * Breadth First Traversal
+* Depth First Traversal

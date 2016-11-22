@@ -3,6 +3,7 @@ Illustrating breadth first traversal in Graph
 The functioning is very similar to breadth first traversal in Trees
 But the only difference is that we have to take care of the cycles
 in the graph because we do not want to iterate over cyclic infinite loop
+in case such exist in a graph
 
 Time Complexity : O(V + E)
 where V -> Number of vertex
