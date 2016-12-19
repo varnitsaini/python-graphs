@@ -8,3 +8,4 @@ This repo consist of programs related to graph data structure written in python 
 * Breadth First Traversal
 * Depth First Traversal
 * Cycle Detection In Undirected Graph
+* Kruskal’s Minimum Spanning Tree algorithm

@@ -21,7 +21,7 @@ def dijkstra(graph, initial):
     visited = {initial: 0}
     path = {}
 
-    nodes = set(graph.nodes)
+    nodes = graph.nodes
 
     while nodes:
         min_node = None
@@ -52,8 +52,7 @@ def dijkstra(graph, initial):
 
 def shortest_path(graph, origin, destination):
     visited, paths = dijkstra(graph, origin)
-    print visited
-    print paths
+
     full_path = deque()
     _destination = paths[destination]
 
@@ -69,6 +68,7 @@ def shortest_path(graph, origin, destination):
 
 if __name__ == '__main__':
     graph = Graph()
+
 
     for node in ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']:
         graph.add_node(node)
